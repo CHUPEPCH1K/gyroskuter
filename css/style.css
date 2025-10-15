@@ -1,0 +1,415 @@
+*{
+   
+    margin: 0; 
+    /* border: 1px solid green; */
+}
+main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+
+.otstup{
+    margin: 0 20%;
+}
+
+header{
+    margin: 1% 0;
+    display: flex;
+    font-size: small;
+    align-items: center;
+}
+
+.zvonok{
+color: rgb(255, 255, 255);    
+margin-left: auto;
+background-color: orange; 
+border-radius: 10px;
+padding: 5px 10px;
+}
+
+.zvonok a{
+    color: white;
+}
+
+.navigation{
+    display: flex;
+
+}
+.ssilki{
+    margin-left: auto;
+    font-size:small;
+    padding-top: 5px;
+                        
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: lightgray;
+}
+.zag{
+    margin: 0;
+}
+.My-Giro
+{
+    background: url(../img/pick1.png);
+    padding: 20% 0 ;
+    text-align: center;
+    font-size:large;
+    color:white;
+    
+}
+.My-Giro h1
+{
+    font-weight: normal;
+}
+.opisanie
+{
+    margin: 2% 33%;
+    
+}
+.vkatalog
+{
+    background-color: white;
+    border-radius:10px;
+    padding: 5px 12px;
+    width: 5%;
+    margin: 0 auto;
+    font-size: small;
+
+}
+.vkatalog a 
+{
+    color:black;
+    font-weight: bold;
+}
+.vkatalog a:hover 
+{
+    color:lightgray;
+}
+.nashi
+{
+    margin-top: 1%;
+}
+.nashi h3
+{
+    font-weight: normal;
+}
+.kartinki
+{
+    display: flex;
+    margin: 3% 7%;
+}
+.kachestvo, .dostavka, .assortiment, .consultant
+{
+    margin: 0 4%;
+    text-align: center;
+}
+
+.kachestvo p, .dostavka p, .assortiment p, .consultant p
+{
+ margin: 5% 0;
+}
+.onas
+{
+    margin-top: 8%;
+}
+.onas h3
+{
+    font-weight: normal;
+}
+.vnashem
+{
+    margin: 5% 0;
+}
+.podpiska
+{
+    margin-top: 3%;
+background-color: orange;
+ display: flex;
+}
+.podpishites
+{
+ margin-left: 20%;
+ width: 15%;
+ color: white;
+ padding: 15px 0 ;
+}
+.name
+{
+   padding: 20px 0 ;
+   margin-left: 250px;
+   
+}
+.email
+{
+    padding: 20px 0 ;
+    margin-left: 1%;
+}
+.custom-input
+{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+    height: 30px;
+    
+}
+.KnopkaPodpis
+{
+    background-color: white;
+    font-size: small;
+    width: 10%;
+    height: 26px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 1%;
+    padding-top: 8px;
+
+}
+.KnopkaPodpis a 
+{
+    
+    color:black;
+    font-weight: bold;
+    
+}
+.KnopkaPodpis a:hover 
+{
+    color:lightgray;
+}
+.osobennosti
+{
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.plusAndMinus
+{
+    display: flex;
+}
+.minus, .plus, .plus2
+{
+    width: 20%;
+    list-style: none;
+}
+.blabla
+{
+    margin-top: 6%;
+    margin-bottom: 9%;
+}
+
+.catalog
+{
+    display: flex;
+    align-items: center;
+}
+.catalog h3
+{
+    font-weight: normal;
+}
+.knopkaVse
+{
+    margin-left: auto;
+    display: flex;
+    gap: 45px;
+    justify-content: end;
+    
+}
+.knopkaVse a
+{
+    color: black;
+    width: 30%;
+    padding: 10px;
+}
+.knopkaVse a:hover
+{
+    background-color:orange;
+    border-radius:  15px;
+    color:white;
+    width: 30%;
+}
+.phon
+{
+    background-color:#FBFBFB;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.fr,.sd, .th, .fr
+{
+    
+    display: flex;
+
+    flex-direction: column;
+    width: 20%;
+}
+.fr img,.sd img, .th img, .fr img
+{
+    width: 100%;
+}
+
+.fr a,.sd a, .th a, .fr a{
+
+    width: 50%;
+    background-color:orange;
+    border-top-right-radius:  15px;
+    border-bottom-right-radius: 15px;
+    color:white;
+}
+
+.jir{
+    font-weight: bold;
+}
+.Nashiconsultanti h3
+{
+    font-weight: normal;
+    margin-top: 10%;
+    margin-bottom: 6%;
+
+}
+.Humans
+{
+    display: flex;
+    gap: 4%;
+    flex-wrap: wrap;
+    
+}
+
+.Ivan, .Galina
+{
+    background-color: rgb(196, 196, 196);
+    width: 30%;
+    
+    display: flex;
+    
+}
+.Svetlana
+{
+     background-color: rgb(196, 196, 196);
+    width: 31%;
+    
+    display: flex;
+}
+.consultant-name
+{
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 100%;
+    
+}
+.cinsultant-position
+{
+    font-size: x-small;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.consiltant-info
+{
+width: 55%;
+}
+.Ivan a, .Galina a, .Svetlana a
+{
+    color: black;
+    width: 30%;
+    padding: 10px;
+}
+.Ivan a:hover, .Galina a:hover, .Svetlana a:hover
+{
+     background-color:orange;
+    border-radius:  15px;
+    color:white;
+    width: 30%;
+}
+.napisat
+{
+margin-top: 20%;
+margin-left: 10%;
+}
+.brends-phon
+{
+    background-color: snow;
+}
+.brends
+{
+    
+    display: flex;
+    gap: 3%;
+    font-size: xxx-large;
+    font-weight: bold;
+    text-align: center;
+    padding: 1%;
+    margin-top: 4%;
+    margin-left: 2%;
+
+    
+
+}
+.brends a
+{
+    color: gray;
+    
+}
+.brends a:hover
+{
+    color: lightgrey;
+}
+.poleznaInfo h3
+{
+font-weight: normal;
+margin-top: 5%;
+}
+.good-info
+{
+    margin-top: 3%;
+    display: flex;
+    gap: 2%;
+}
+.kakvibratgyro
+{
+     background: url(../img/1\ 2.png);
+     padding: 10% 2%;
+     text-align: center;
+     color: white;
+     font-weight: bold;
+}
+.electrosamokat
+{
+    background: url(../img/vtoroi.png);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10% 1% ;
+}
+.kakvibratsigvey
+{
+    background: url(../img/3\ 2.png);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10% 1% ;
+}
+.soveti
+{
+        background: url(../img/4\ 1.png);
+         text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10% 1% ;
+
+}
+
+
+
+
+
+
+
+
+
